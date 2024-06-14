@@ -1,6 +1,0 @@
-.btn {
-  @apply bg-cyan-500 p-7 rounded-sm;
-  &:hover {
-    @apply bg-slate-900
-  }
-}
