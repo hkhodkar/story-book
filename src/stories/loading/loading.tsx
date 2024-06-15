@@ -24,6 +24,6 @@ export const Loading: React.FC<LoadingProps> = ({
         { [`loading-${type}`]: type },
     );
     return (
-        <span className={classes}></span>
+        <span data-testid="loading" className={classes}></span>
     );
 };
