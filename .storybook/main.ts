@@ -6,11 +6,12 @@ const config: StorybookConfig = {
     "@storybook/preset-create-react-app",
     "@storybook/addon-onboarding",
     "@storybook/addon-links",
+    '@storybook/addon-jest',
     "@storybook/addon-essentials",
     "@chromatic-com/storybook",
     "@storybook/addon-interactions",
     "@storybook/addon-styling-webpack",
-    "@storybook/addon-themes",
+    "@storybook/addon-themes"
   ],
   framework: {
     name: "@storybook/react-webpack5",
