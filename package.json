@@ -1,6 +1,6 @@
 {
   "name": "story-book",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@storybook/addon-jest": "^8.1.9",
