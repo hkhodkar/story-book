@@ -8,7 +8,6 @@ All notable changes to this project will be documented in this file. See [standa
 ### Features
 
 * **changeLog story:** add change log story to project 24d029b
-* **husky:** add husky and config it to have cleaner commit message 6666d30
 
 ## [0.2.0](https://github.com/mokkapps/changelog-generator-demo/compare/v0.1.0...v0.2.0) (2024-06-17)
 
