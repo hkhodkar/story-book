@@ -1,6 +1,6 @@
 {
   "name": "story-book",
-  "version": "0.1.0",
+  "version": "1.1.0",
   "private": true,
   "dependencies": {
     "@storybook/addon-jest": "^8.1.9",
@@ -30,7 +30,11 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "test:generate-output": "jest --json --outputFile=.jest-test-results.json",
-    "lint": "tslint -c tslint.json 'src/**/*.{ts,tsx}' --fix --format verbose"
+    "lint": "tslint -c tslint.json 'src/**/*.{ts,tsx}' --fix --format verbose",
+    "release": "standard-version",
+    "release:minor": "standard-version --release-as minor",
+    "release:patch": "standard-version --release-as patch",
+    "release:major": "standard-version --release-as major"
   },
   "eslintConfig": {
     "extends": [
@@ -69,6 +73,7 @@
     "eslint-plugin-storybook": "^0.8.0",
     "jest-environment-jsdom": "^29.7.0",
     "prop-types": "^15.8.1",
+    "standard-version": "^9.5.0",
     "storybook": "^8.1.9",
     "tailwindcss": "^3.4.4",
     "ts-jest": "^29.1.4",
