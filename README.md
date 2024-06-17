@@ -59,7 +59,7 @@ To deploy Storybook to Chromatic:
 
 You can view the live version of this Storybook at the following URL:
 
-[Live Storybook URL](https://66700353319f66aa46e02213-ynoedvzhro.chromatic.com/?path=/docs/changelog--docs)
+[Live Storybook URL](https://hkhodkar.github.io/story-book/?path=/docs/readme--docs)
 
 ## Contributing
 
