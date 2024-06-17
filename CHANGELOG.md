@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.4.2](https://github.com/mokkapps/changelog-generator-demo/compare/v0.4.1...v0.4.2) (2024-06-17)
+
+
+### Bug Fixes
+
+* **automation:** add github page instead of chromatic ([c1dce68](https://github.com/mokkapps/changelog-generator-demo/commits/c1dce684cd7bd150f4fb296668036e0965d03c2c))
+
 ### [0.4.1](https://github.com/mokkapps/changelog-generator-demo/compare/v0.4.0...v0.4.1) (2024-06-17)
 
 
