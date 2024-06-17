@@ -18,7 +18,7 @@ describe("test loading component", () => {
     { size: "large", class: "loading-lg" },
   ].forEach((item) => {
     test(`loading with size ${item.size} should have correct class`, () => {
-      render(<Loading size={item.size as Size}></Loading>);
+      render(<Loading size={item.size as Size} />);
       const element = screen.getByTestId("loading");
       expect(element).toHaveClass(item.class);
     });
