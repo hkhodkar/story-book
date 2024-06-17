@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.4.0](https://github.com/mokkapps/changelog-generator-demo/compare/v0.1.0...v0.4.0) (2024-06-17)
+
+
+### Features
+
+* **changeLog story:** add change log story to project ([24d029b](https://github.com/mokkapps/changelog-generator-demo/commits/24d029b2a64acdaa4e798ba1c2c8be44ddf53b62))
+* **chromatic:** add chromatic to continuous integration and continuous deployment ([fe88ac7](https://github.com/mokkapps/changelog-generator-demo/commits/fe88ac73fd6075e2c80eeb9ec2fb82f3457227a5))
+* **husky:** add husky and config it to have cleaner commit message ([6666d30](https://github.com/mokkapps/changelog-generator-demo/commits/6666d30f5d45d510c99c95087d2d8dcc5723c3be))
+
 ## [0.3.0](https://github.com/mokkapps/changelog-generator-demo/compare/v0.1.0...v0.3.0) (2024-06-17)
 
 
