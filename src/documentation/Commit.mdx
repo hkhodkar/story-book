@@ -1,0 +1,63 @@
+# Commit Message Guidelines
+
+To maintain a clean and understandable project history, we follow a specific format for commit messages. This document provides guidelines for writing commit messages and explains the use of `.commitlintrc` for enforcing these guidelines.
+
+## Table of Contents
+
+- [Why Commit Message Guidelines?](#why-commit-message-guidelines)
+- [Commit Message Format](#commit-message-format)
+- [Commitlint Configuration](#commitlint-configuration)
+- [Using Commitlint](#using-commitlint)
+- [Example Commit Messages](#example-commit-messages)
+- [Additional Resources](#additional-resources)
+
+## Why Commit Message Guidelines?
+
+Consistent commit messages help in:
+
+- Understanding the history of the project
+- Simplifying the process of tracking changes
+- Facilitating easier code reviews
+- Automating releases
+
+## Commit Message Format
+
+Each commit message should consist of a header, an optional body, and an optional footer. The header has a specific format that includes a type, an optional scope, and a subject:
+
+
+### Type
+
+Must be one of the following:
+
+- **feat**: A new feature
+- **fix**: A bug fix
+- **docs**: Documentation changes
+- **style**: Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc.)
+- **refactor**: A code change that neither fixes a bug nor adds a feature
+- **perf**: A code change that improves performance
+- **test**: Adding missing tests or correcting existing tests
+- **build**: Changes that affect the build system or external dependencies
+- **ci**: Changes to our CI configuration files and scripts
+- **chore**: Other changes that don't modify src or test files
+- **revert**: Reverts a previous commit
+
+### Scope
+
+The scope is optional but can be used to specify what part of the codebase the commit affects (e.g., `Button`, `Header`, `API`).
+
+### Subject
+
+The subject contains a short, concise description of the change:
+
+- Use the imperative mood ("change" not "changed" or "changes")
+- Do not capitalize the first letter
+- Do not end the subject with a period
+
+### Body
+
+The body is optional and can include more detailed information about the commit. It should be used to explain the **what**, **why**, and **how** of the changes. Use bullet points if necessary.
+
+### Footer
+
+The footer is optional and should be used to reference any issues that this commit closes:
+
