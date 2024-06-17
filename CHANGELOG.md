@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.4.1](https://github.com/mokkapps/changelog-generator-demo/compare/v0.4.0...v0.4.1) (2024-06-17)
+
+
+### Bug Fixes
+
+* **chromatic:** add npm run tests in chromatic yaml file ([d56455b](https://github.com/mokkapps/changelog-generator-demo/commits/d56455bbb7b3659a00cae7c9653569ab2a996337))
+
 ## [0.4.0](https://github.com/mokkapps/changelog-generator-demo/compare/v0.1.0...v0.4.0) (2024-06-17)
 
 
