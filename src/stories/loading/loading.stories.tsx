@@ -1,7 +1,8 @@
-import { Loading } from "./loading";
+import Loading from "./loading";
 import { Meta, StoryObj } from "@storybook/react";
 import { withTests } from "@storybook/addon-jest";
 import results from "../../../.jest-test-results.json";
+import React from "react";
 
 const meta: Meta<typeof Loading> = {
   component: Loading,

@@ -1,8 +1,9 @@
-import { Loading } from ".";
 import "@testing-library/jest-dom";
-import { Size } from "@costumeTypes/size.type";
-import { Variant } from "@costumeTypes/variant.type";
 import { render, screen } from "@testing-library/react";
+import Loading from "./loading";
+import React from "react";
+import { Size } from "../../types/size.type";
+import { Variant } from "../../types/variant.type";
 
 describe("test loading component", () => {
   test("default loading should be render in document", () => {

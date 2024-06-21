@@ -1,6 +1,7 @@
-import { Size } from "@costumeTypes/size.type";
+import { Size } from "../../types/size.type";
 import { LoadingProps } from "./loading.type";
 import classNames from "classnames";
+import React from "react";
 
 const sizeClasses: Record<Size, string> = {
   tiny: "loading-xs",
@@ -9,7 +10,7 @@ const sizeClasses: Record<Size, string> = {
   large: "loading-lg",
 };
 
-export const Loading: React.FC<LoadingProps> = ({
+const Loading: React.FC<LoadingProps> = ({
   variant,
   type = "spinner",
   size = "large",
@@ -24,3 +25,5 @@ export const Loading: React.FC<LoadingProps> = ({
   );
   return <span data-testid="loading" className={classes} />;
 };
+
+export default Loading;

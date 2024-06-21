@@ -1,4 +1,4 @@
-import { ComponentBase } from "@costumeTypes/component-base.type";
+import { ComponentBase } from "../../types/component-base.type";
 
 export type LoadingProps = ComponentBase & {
   type?: "spinner" | "ring";
