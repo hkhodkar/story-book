@@ -50,7 +50,6 @@
   },
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
-    "@chromatic-com/storybook": "^1.5.0",
     "@commitlint/cli": "^19.3.0",
     "@commitlint/config-conventional": "^19.2.2",
     "@rollup/plugin-commonjs": "^26.0.1",
