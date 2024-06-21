@@ -1,7 +1,7 @@
 {
   "name": "@hatef_khodkar/storybook",
   "description": "custom story book library",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "private": false,
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
