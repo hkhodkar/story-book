@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.3.3](https://github.com/mokkapps/changelog-generator-demo/compare/v1.3.1...v1.3.3) (2024-06-25)
+
+
+### Bug Fixes
+
+* **styles:** export all component styles in npm package ([7b74732](https://github.com/mokkapps/changelog-generator-demo/commits/7b74732f7ea66fd94684d2eae047bfaafd613aab))
+
 ### [1.3.1](https://github.com/mokkapps/changelog-generator-demo/compare/v1.0.5...v1.3.1) (2024-06-25)
 
 
