@@ -1,0 +1,55 @@
+.label {
+    @apply transition-all duration-300 text-sm left-2;
+}
+
+.input {
+    @apply px-3 py-2 outline-none border bg-transparent rounded-md;
+
+    &-ghost {
+        @apply dark:text-base;
+    }
+
+    &-primary {
+        @apply border-primary dark:border-dark-primary;
+    }
+
+    &-secondary {
+        @apply border-secondary dark:border-dark-secondary;
+    }
+
+    &-accent {
+        @apply border-accent dark:border-dark-accent;
+    }
+
+    &-info {
+        @apply border-info dark:border-dark-info;
+    }
+
+    &-success {
+        @apply border-success dark:border-dark-success;
+    }
+
+    &-warning {
+        @apply border-warning dark:border-dark-warning;
+    }
+
+    &-error {
+        @apply border-error dark:border-dark-error;
+    }
+
+    &-xs {
+        @apply w-8/12;
+    }
+
+    &-sm {
+        @apply w-9/12;
+    }
+
+    &-md {
+        @apply w-10/12;
+    }
+
+    &-lg {
+        @apply w-full
+    }
+}
