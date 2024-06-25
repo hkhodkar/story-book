@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://github.com/mokkapps/changelog-generator-demo/compare/v1.0.6...v1.1.0) (2024-06-25)
+
+
+### Features
+
+* **input:** add input component to storybook ([8396aec](https://github.com/mokkapps/changelog-generator-demo/commits/8396aec004dcf811fdc10c252a9f98c11263533e))
+
 ### [1.0.6](https://github.com/mokkapps/changelog-generator-demo/compare/v0.4.2...v1.0.6) (2024-06-23)
 
 ### [1.0.5](https://github.com/mokkapps/changelog-generator-demo/compare/v1.0.4...v1.0.5) (2024-06-21)
