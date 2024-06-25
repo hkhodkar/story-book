@@ -87,6 +87,7 @@
     "react-dom": "^18.3.1",
     "react-scripts": "5.0.1",
     "rollup": "^4.18.0",
+    "rollup-plugin-dts": "^6.1.1",
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-postcss": "^4.0.2",
     "rollup-plugin-typescript2": "^0.36.0",
@@ -106,8 +107,5 @@
   "peerDependencies": {
     "react": "^16.8.0 || ^17.0.0 || ^18.0.0",
     "react-dom": "^16.8.0 || ^17.0.0 || ^18.0.0"
-  },
-  "dependencies": {
-    "rollup-plugin-dts": "^6.1.1"
   }
 }

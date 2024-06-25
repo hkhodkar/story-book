@@ -1,26 +1,21 @@
-// rollup.config.mjs
 import resolve from "@rollup/plugin-node-resolve";
 import commonjs from "@rollup/plugin-commonjs";
 import typescript from "@rollup/plugin-typescript";
 import postcss from "rollup-plugin-postcss";
 import peerDepsExternal from "rollup-plugin-peer-deps-external";
 import dts from "rollup-plugin-dts";
-import { createRequire } from "module";
-
-const require = createRequire(import.meta.url);
-const packageJson = require("./package.json");
 
 export default [
   {
     input: "src/index.ts",
     output: [
       {
-        file: packageJson.main,
+        file: "dist/index.cjs.js",
         format: "cjs",
         sourcemap: true,
       },
       {
-        file: packageJson.module,
+        file: "dist/index.esm.js",
         format: "esm",
         sourcemap: true,
       },
@@ -30,13 +25,24 @@ export default [
       resolve(),
       commonjs(),
       typescript({ tsconfig: "./tsconfig.json" }),
-      postcss(),
+      postcss({
+        extract: true, // Extract CSS to a separate file
+        minimize: true,
+        use: [
+          [
+            "sass",
+            {
+              includePaths: ["./node_modules"],
+            },
+          ],
+        ],
+      }),
     ],
   },
   {
     input: "dist/types/index.d.ts",
     output: [{ file: "dist/index.d.ts", format: "esm" }],
     plugins: [dts()],
-    external: [/\.css$/],
+    external: [/\.css$/, /\.scss$/],
   },
 ];

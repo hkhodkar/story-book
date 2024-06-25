@@ -1,5 +1,5 @@
 import React from "react";
-import { Button } from "./button";
+import Button from "./button";
 import { Meta, StoryObj } from "@storybook/react";
 import { withTests } from "@storybook/addon-jest";
 import * as results from "../../../.jest-test-results.json";

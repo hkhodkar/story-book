@@ -3,7 +3,7 @@ import "@testing-library/jest-dom";
 import { describe } from "node:test";
 import { render, screen } from "@testing-library/react";
 
-import { Button } from "./button";
+import Button from "./button";
 import { ButtonShape } from "./button.type";
 import { Size } from "../../types/size.type";
 import { Variant } from "../../types/variant.type";
