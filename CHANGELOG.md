@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.3.5](https://github.com/mokkapps/changelog-generator-demo/compare/v1.3.4...v1.3.5) (2024-06-25)
+
+
+### Bug Fixes
+
+* **input:** add input in npm package ([31d7ba3](https://github.com/mokkapps/changelog-generator-demo/commits/31d7ba311d9d44bc4a644b06b2ac94e53a2a24ac))
+
 ### [1.3.4](https://github.com/mokkapps/changelog-generator-demo/compare/v1.3.3...v1.3.4) (2024-06-25)
 
 
