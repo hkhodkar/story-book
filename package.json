@@ -27,7 +27,8 @@
     "release:major": "standard-version --release-as major",
     "prepare": "husky install",
     "lint-staged": "lint-staged",
-    "rollup-plugin-dts": "^6.1.1"
+    "rollup-plugin-dts": "^6.1.1",
+    "npm-publish": "npm run test:generate-output && npm run build && npm publish --access public"
   },
   "eslintConfig": {
     "extends": [
