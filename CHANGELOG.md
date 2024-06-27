@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.4.0](https://github.com/mokkapps/changelog-generator-demo/compare/v1.3.5...v1.4.0) (2024-06-27)
+
+
+### Features
+
+* **checkbox:** add checkbox component, story and tests ([d659793](https://github.com/mokkapps/changelog-generator-demo/commits/d6597932bff82f97248456fed230340aec067304))
+
 ### [1.3.5](https://github.com/mokkapps/changelog-generator-demo/compare/v1.3.4...v1.3.5) (2024-06-25)
 
 
