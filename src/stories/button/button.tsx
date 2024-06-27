@@ -20,7 +20,7 @@ const shapeClasses: Record<ButtonShape, string> = {
 
 const Button: React.FC<ButtonProps> = ({
   variant,
-  size = "normal",
+  componentSize = "normal",
   isDisabled = false,
   isOutline = false,
   shape = "default",
@@ -38,7 +38,7 @@ const Button: React.FC<ButtonProps> = ({
     "btn",
     className,
     { [`btn-${variant}`]: variant },
-    { [`${sizeClasses[size]}`]: size },
+    { [`${sizeClasses[componentSize]}`]: componentSize },
     { "btn-outline": isOutline },
     { "btn-link": isLink },
     { [`${shapeClasses[shape]}`]: shape },

@@ -7,12 +7,6 @@ import * as results from "../../../.jest-test-results.json";
 const meta: Meta<typeof Button> = {
   component: Button,
   tags: ["autodocs"],
-  decorators: [
-    (Story) => {
-      document.documentElement.classList.add("dark");
-      return <Story />;
-    },
-  ],
 };
 
 export default meta;
@@ -98,16 +92,16 @@ export const OutlineStateButton: Story = {
 export const ButtonSizes: Story = {
   render: () => (
     <>
-      <Button variant="neutral" size="tiny">
+      <Button variant="neutral" componentSize="tiny">
         Tiny
       </Button>
-      <Button variant="neutral" size="small">
+      <Button variant="neutral" componentSize="small">
         Small
       </Button>
-      <Button variant="neutral" size="normal">
+      <Button variant="neutral" componentSize="normal">
         Normal
       </Button>
-      <Button variant="neutral" size="large">
+      <Button variant="neutral" componentSize="large">
         Large
       </Button>
     </>
@@ -135,7 +129,7 @@ export const FullButton: Story = {
 export const SqureButtons: Story = {
   render: () => (
     <>
-      <Button variant="neutral" size="tiny" shape="square">
+      <Button variant="neutral" componentSize="tiny" shape="square">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           className="h-6 w-6"
@@ -151,7 +145,7 @@ export const SqureButtons: Story = {
           ></path>
         </svg>
       </Button>
-      <Button variant="neutral" size="small" shape="square">
+      <Button variant="neutral" componentSize="small" shape="square">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           className="h-6 w-6"
@@ -167,7 +161,7 @@ export const SqureButtons: Story = {
           ></path>
         </svg>
       </Button>
-      <Button variant="neutral" size="normal" shape="square">
+      <Button variant="neutral" componentSize="normal" shape="square">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           className="h-6 w-6"
@@ -183,7 +177,7 @@ export const SqureButtons: Story = {
           ></path>
         </svg>
       </Button>
-      <Button variant="neutral" size="large" shape="square">
+      <Button variant="neutral" componentSize="large" shape="square">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           className="h-6 w-6"

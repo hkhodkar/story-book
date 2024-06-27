@@ -13,7 +13,7 @@ const sizeClasses: Record<Size, string> = {
 const Loading: React.FC<LoadingProps> = ({
   variant,
   type = "spinner",
-  size = "large",
+  componentSize: size = "large",
   className,
 }: LoadingProps) => {
   const classes = classNames(

@@ -21,7 +21,7 @@ type Story = StoryObj<typeof Loading>;
 
 export const Tests: Story = {
   args: {
-    size: "large",
+    componentSize: "large",
     variant: "accent",
     type: "spinner",
   },
@@ -35,10 +35,10 @@ export const LoadingSpinner: Story = {
   },
   render: () => (
     <>
-      <Loading size="tiny" />
-      <Loading size="small" />
-      <Loading size="normal" />
-      <Loading size="large" />
+      <Loading componentSize="tiny" />
+      <Loading componentSize="small" />
+      <Loading componentSize="normal" />
+      <Loading componentSize="large" />
     </>
   ),
 };
@@ -46,10 +46,10 @@ export const LoadingSpinner: Story = {
 export const LoadingRing: Story = {
   render: () => (
     <>
-      <Loading size="tiny" type="ring" />
-      <Loading size="small" type="ring" />
-      <Loading size="normal" type="ring" />
-      <Loading size="large" type="ring" />
+      <Loading componentSize="tiny" type="ring" />
+      <Loading componentSize="small" type="ring" />
+      <Loading componentSize="normal" type="ring" />
+      <Loading componentSize="large" type="ring" />
     </>
   ),
 };
@@ -72,14 +72,14 @@ export const SpinnerWithColors: Story = {
 export const RingWithColors: Story = {
   render: () => (
     <>
-      <Loading size="normal" type="ring" variant="neutral" />
-      <Loading size="normal" type="ring" variant="primary" />
-      <Loading size="normal" type="ring" variant="secondary" />
-      <Loading size="normal" type="ring" variant="accent" />
-      <Loading size="normal" type="ring" variant="success" />
-      <Loading size="normal" type="ring" variant="info" />
-      <Loading size="normal" type="ring" variant="warning" />
-      <Loading size="normal" type="ring" variant="error" />
+      <Loading componentSize="normal" type="ring" variant="neutral" />
+      <Loading componentSize="normal" type="ring" variant="primary" />
+      <Loading componentSize="normal" type="ring" variant="secondary" />
+      <Loading componentSize="normal" type="ring" variant="accent" />
+      <Loading componentSize="normal" type="ring" variant="success" />
+      <Loading componentSize="normal" type="ring" variant="info" />
+      <Loading componentSize="normal" type="ring" variant="warning" />
+      <Loading componentSize="normal" type="ring" variant="error" />
     </>
   ),
 };

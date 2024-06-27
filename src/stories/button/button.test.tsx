@@ -42,7 +42,7 @@ describe("Button Component", () => {
     { size: "large", class: "btn-lg" },
   ].forEach((item) => {
     test(`applies the correct class for ${item.size} button`, () => {
-      render(<Button size={item.size as Size}></Button>);
+      render(<Button componentSize={item.size as Size}></Button>);
       expect(screen.getByRole("button")).toHaveClass(`${item.class}`);
     });
   });

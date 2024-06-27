@@ -16,7 +16,7 @@ const Input: React.FC<InputProps> = ({
   className,
   type = "text",
   id,
-  size = "large",
+  componentSize: size = "large",
 }) => {
   const [isFocused, setIsFocused] = useState(false);
   const [value, setValue] = useState("");

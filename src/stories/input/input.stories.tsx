@@ -18,34 +18,41 @@ export const Tests: Story = {
   render: ({ ...args }) => {
     return (
       <div className="mt-10">
-        <Input {...args} label="Label" />
+        <Input {...args} label={args.label ?? "Label"} />
       </div>
     );
   },
 };
 
-export const InputWithDifferentColors: Story = {
+export const BrandColors: Story = {
   render: () => (
     <div className="flex flex-col gap-10 mt-10">
-      <Input variant="neutral" label="Label" />
-      <Input variant="primary" label="Label" />
-      <Input variant="secondary" label="Label" />
-      <Input variant="accent" label="Label" />
-      <Input variant="success" label="Label" />
-      <Input variant="info" label="Label" />
-      <Input variant="warning" label="Label" />
-      <Input variant="error" label="Label" />
+      <Input variant="neutral" label="neutral" />
+      <Input variant="primary" label="primary" />
+      <Input variant="secondary" label="secondary" />
+      <Input variant="accent" label="accent" />
     </div>
   ),
 };
 
-export const InPutWithDifferentSizes: Story = {
+export const StateColors: Story = {
   render: () => (
     <div className="flex flex-col gap-10 mt-10">
-      <Input size="tiny" variant="accent" label="Label" />
-      <Input size="small" variant="accent" label="Label" />
-      <Input size="normal" variant="accent" label="Label" />
-      <Input size="large" variant="accent" label="Label" />
+      <Input variant="success" label="success" />
+      <Input variant="info" label="info" />
+      <Input variant="warning" label="warning" />
+      <Input variant="error" label="error" />
+    </div>
+  ),
+};
+
+export const InputSizes: Story = {
+  render: () => (
+    <div className="flex flex-col gap-10 mt-10">
+      <Input componentSize="tiny" variant="accent" label="tiny" />
+      <Input componentSize="small" variant="accent" label="small" />
+      <Input componentSize="normal" variant="accent" label="normal" />
+      <Input componentSize="large" variant="accent" label="large" />
     </div>
   ),
 };
