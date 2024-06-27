@@ -1,0 +1,73 @@
+.checkbox {
+
+    @apply flex justify-center items-center border border-gray-300 rounded;
+
+    &-label {
+        @apply inline-flex items-center cursor-pointer;
+
+        &--xs {
+            @apply text-xs;
+        }
+
+        &--sm {
+            @apply text-sm;
+        }
+
+        &--md {
+            @apply text-base;
+        }
+
+        &--lg {
+            @apply text-lg
+        }
+
+    }
+
+    &-ghost {
+        @apply dark:text-base;
+    }
+
+    &-primary {
+        @apply bg-primary dark:bg-dark-primary focus:ring-primary dark:focus:ring-dark-primary;
+    }
+
+    &-secondary {
+        @apply bg-secondary dark:bg-dark-secondary focus:ring-secondary dark:focus:ring-dark-secondary;
+    }
+
+    &-accent {
+        @apply bg-accent dark:bg-dark-accent focus:ring-green-500 dark:focus:ring-green-600;
+    }
+
+    &-info {
+        @apply bg-info dark:bg-dark-info focus:ring-info dark:focus:ring-dark-info;
+    }
+
+    &-success {
+        @apply bg-success dark:bg-dark-success focus:ring-success dark:focus:ring-dark-success;
+    }
+
+    &-warning {
+        @apply bg-warning dark:bg-dark-warning focus:ring-warning dark:focus:ring-dark-warning;
+    }
+
+    &-error {
+        @apply bg-error dark:bg-dark-error focus:ring-error dark:focus:ring-dark-error;
+    }
+
+    &-xs {
+        @apply w-3 h-3;
+    }
+
+    &-sm {
+        @apply w-4 h-4;
+    }
+
+    &-md {
+        @apply w-5 h-5;
+    }
+
+    &-lg {
+        @apply w-6 h-6
+    }
+}
