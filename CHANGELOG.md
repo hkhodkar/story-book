@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.4.1](https://github.com/mokkapps/changelog-generator-demo/compare/v1.4.0...v1.4.1) (2024-06-27)
+
+
+### Bug Fixes
+
+* **checkbox:** add checkbox component to the output of npm package ([77ca57b](https://github.com/mokkapps/changelog-generator-demo/commits/77ca57bba4a8d20bd49d7ff24af1fa14f81588e9))
+
 ## [1.4.0](https://github.com/mokkapps/changelog-generator-demo/compare/v1.3.5...v1.4.0) (2024-06-27)
 
 
