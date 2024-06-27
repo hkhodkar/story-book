@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.4.2](https://github.com/mokkapps/changelog-generator-demo/compare/v1.4.1...v1.4.2) (2024-06-27)
+
+
+### Bug Fixes
+
+* **label color:** fix color of labels ([dadb908](https://github.com/mokkapps/changelog-generator-demo/commits/dadb908eeef39802be12dc2f3fc90fa7fd22d257))
+
 ### [1.4.1](https://github.com/mokkapps/changelog-generator-demo/compare/v1.4.0...v1.4.1) (2024-06-27)
 
 
