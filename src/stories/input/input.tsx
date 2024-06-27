@@ -35,7 +35,7 @@ const Input: React.FC<InputProps> = ({
 
   const labelClassName =
     isFocused || value.length > 0
-      ? "absolute -top-6 left-2 text-neutral-color "
+      ? "absolute -top-6 left-2 "
       : "absolute top-[10px] text-input-focus ";
 
   const inputClasses = classNames(

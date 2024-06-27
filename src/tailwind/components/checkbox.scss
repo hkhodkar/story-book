@@ -3,7 +3,7 @@
     @apply flex justify-center items-center border border-gray-300 rounded;
 
     &-label {
-        @apply inline-flex items-center cursor-pointer;
+        @apply text-neutral dark:text-white inline-flex items-center cursor-pointer;
 
         &--xs {
             @apply text-xs;
