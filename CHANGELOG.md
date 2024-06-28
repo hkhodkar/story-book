@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.6.0](https://github.com/mokkapps/changelog-generator-demo/compare/v1.5.4...v1.6.0) (2024-06-28)
+
+
+### Features
+
+* **button:** add disabled button for variants ([dfe082d](https://github.com/mokkapps/changelog-generator-demo/commits/dfe082d2d8b33bb51d6e9033c2c72a0f76f73e1c))
+
 ### [1.5.4](https://github.com/mokkapps/changelog-generator-demo/compare/v1.5.3...v1.5.4) (2024-06-28)
 
 
