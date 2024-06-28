@@ -60,7 +60,7 @@ export const InputSizes: Story = {
 export const PrefixInput: Story = {
   render: () => (
     <div className="flex flex-col gap-10 mt-10">
-      <Input variant="ghost" label="ghost" hasPrefix inputPrefix="+97" />
+      <Input variant="ghost" label="ghost" hasPrefix inputPrefix="ghost" />
       <Input variant="primary" label="primary" hasPrefix inputPrefix="prefix" />
       <Input
         variant="secondary"

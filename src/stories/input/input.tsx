@@ -42,9 +42,7 @@ const Input: React.FC<InputProps> = ({
   const labelClassName =
     isFocused || value.length > 0
       ? "absolute -top-6 left-2 "
-      : `absolute top-[12px] text-input-focus ${
-          hasPrefix ? "left-[64px] " : "left-2 "
-        }`;
+      : "absolute top-[12px] text-input-focus left-2 ";
 
   const inputClasses = classNames(
     "input",
@@ -55,7 +53,7 @@ const Input: React.FC<InputProps> = ({
     { [`input-${variant}`]: variant }
   );
 
-  const inputSizeClasses = classNames("relative flex flex-row items-stretch", {
+  const inputSizeClasses = classNames("flex flex-row items-stretch", {
     [`${sizeClasses[componentSize]}`]: componentSize,
   });
 
@@ -73,7 +71,7 @@ const Input: React.FC<InputProps> = ({
           {inputPrefix}
         </div>
       )}
-      <div className="w-full">
+      <div className="w-full relative">
         <label className={labelClassName + "label"} htmlFor={label}>
           {label}
         </label>
