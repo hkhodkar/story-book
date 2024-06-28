@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.5.4](https://github.com/mokkapps/changelog-generator-demo/compare/v1.5.3...v1.5.4) (2024-06-28)
+
+
+### Bug Fixes
+
+* **input:** remove custom types ([2dad910](https://github.com/mokkapps/changelog-generator-demo/commits/2dad910fd7e7fbae7aaaef0faee161e7d5c46a3d))
+
 ### [1.5.3](https://github.com/mokkapps/changelog-generator-demo/compare/v1.5.2...v1.5.3) (2024-06-28)
 
 
