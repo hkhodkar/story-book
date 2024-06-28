@@ -22,10 +22,11 @@ const Input: React.FC<InputProps> = ({
   hasSuffix,
   inputPrefix,
   inputSuffix,
+  value = "",
+  onChange,
   ...rest
 }) => {
   const [isFocused, setIsFocused] = useState(false);
-  const [value, setValue] = useState("");
 
   const handleFocus = () => {
     setIsFocused(true);
@@ -35,12 +36,8 @@ const Input: React.FC<InputProps> = ({
     setIsFocused(false);
   };
 
-  const handleSetValue = (event: ChangeEvent<HTMLInputElement>) => {
-    setValue(event.target.value);
-  };
-
   const labelClassName =
-    isFocused || value.length > 0
+    isFocused || value.toString().length > 0
       ? "absolute -top-6 left-2 "
       : "absolute top-[12px] text-input-focus left-2 ";
 
@@ -85,7 +82,7 @@ const Input: React.FC<InputProps> = ({
           onFocus={handleFocus}
           onBlur={handleBlur}
           value={value}
-          onChange={handleSetValue}
+          onChange={onChange}
         />
       </div>
       {hasSuffix && (
@@ -99,5 +96,4 @@ const Input: React.FC<InputProps> = ({
     </div>
   );
 };
-
 export default Input;
