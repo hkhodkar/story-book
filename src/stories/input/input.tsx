@@ -73,7 +73,7 @@ const Input: React.FC<InputProps> = ({
           {inputPrefix}
         </div>
       )}
-      <div className="">
+      <div className="w-full">
         <label className={labelClassName + "label"} htmlFor={label}>
           {label}
         </label>
