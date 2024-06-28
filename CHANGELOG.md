@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.5.0](https://github.com/mokkapps/changelog-generator-demo/compare/v1.4.2...v1.5.0) (2024-06-28)
+
+
+### Features
+
+* **input:** add prefix and suffix input to project ([b9240b6](https://github.com/mokkapps/changelog-generator-demo/commits/b9240b601f891ca56849680eaaf71330419e86c3))
+
 ### [1.4.2](https://github.com/mokkapps/changelog-generator-demo/compare/v1.4.1...v1.4.2) (2024-06-27)
 
 
