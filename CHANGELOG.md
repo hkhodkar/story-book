@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.5.1](https://github.com/mokkapps/changelog-generator-demo/compare/v1.5.0...v1.5.1) (2024-06-28)
+
+
+### Bug Fixes
+
+* **input:** set width full for input container class ([cefc648](https://github.com/mokkapps/changelog-generator-demo/commits/cefc648218ca842c3598b84b54bedc08a759e44e))
+
 ## [1.5.0](https://github.com/mokkapps/changelog-generator-demo/compare/v1.4.2...v1.5.0) (2024-06-28)
 
 
