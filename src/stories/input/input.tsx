@@ -1,7 +1,7 @@
 import classNames from "classnames";
 import { InputProps } from "./input.type";
 import { Size } from "../../types/size.type";
-import React, { ChangeEvent, useState } from "react";
+import React, { useState } from "react";
 import themeColors from "../../theme/colors";
 
 const sizeClasses: Record<Size, string> = {

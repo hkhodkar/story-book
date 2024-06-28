@@ -7,7 +7,6 @@ export type InputProps = React.InputHTMLAttributes<HTMLInputElement> &
     id?: string;
     hasSuffix?: boolean;
     hasPrefix?: boolean;
-    type?: "text" | "password";
     inputSuffix?: any;
     inputPrefix?: any;
   };
