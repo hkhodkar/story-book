@@ -37,6 +37,27 @@ describe("Button Component", () => {
   });
 
   [
+    "neutral",
+    "primary",
+    "secondary",
+    "accent",
+    "ghost",
+    "info",
+    "success",
+    "warning",
+    "error",
+  ].forEach((variant) => {
+    test(`applies the correct  disabled css class for disabled ${variant} button`, () => {
+      render(
+        <Button isDisabled variant={variant as Variant}>
+          click here
+        </Button>
+      );
+      expect(screen.getByRole("button")).toHaveClass(`btn-${variant}-disabled`);
+    });
+  });
+
+  [
     { size: "tiny", class: "btn-xs" },
     { size: "small", class: "btn-sm" },
     { size: "large", class: "btn-lg" },

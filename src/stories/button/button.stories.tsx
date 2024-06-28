@@ -199,11 +199,32 @@ export const SqureButtons: Story = {
 
 export const DisabledButton: Story = {
   render: () => (
-    <>
-      <Button variant="neutral" disabled>
-        Disabled Button
+    <div className="flex flex-row gap-2">
+      <Button variant="neutral" isDisabled>
+        neutral
       </Button>
-    </>
+      <Button variant="primary" isDisabled>
+        primary
+      </Button>
+      <Button variant="secondary" isDisabled>
+        secondary
+      </Button>
+      <Button variant="accent" isDisabled>
+        accent
+      </Button>
+      <Button variant="info" isDisabled>
+        info
+      </Button>
+      <Button variant="success" isDisabled>
+        success
+      </Button>
+      <Button variant="warning" isDisabled>
+        warning
+      </Button>
+      <Button variant="error" isDisabled>
+        error
+      </Button>
+    </div>
   ),
 };
 

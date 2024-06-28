@@ -37,7 +37,8 @@ const Button: React.FC<ButtonProps> = ({
   const classes = classNames(
     "btn",
     className,
-    { [`btn-${variant}`]: variant },
+    { [`btn-${variant}`]: variant && !isDisabled },
+    { [`btn-${variant}-disabled`]: variant && isDisabled },
     { [`${sizeClasses[componentSize]}`]: componentSize },
     { "btn-outline": isOutline },
     { "btn-link": isLink },
