@@ -9,7 +9,7 @@ const generateForegroundColorFrom = (input: string, percentage = 0.08) =>
     .mix(colord(input).isDark() ? "white" : "black", percentage)
     .toHex();
 
-const themeColors = {
+const themeColors: any = {
   current: "currentColor",
   transparent: "transparent",
   white: "#F9F9F9",

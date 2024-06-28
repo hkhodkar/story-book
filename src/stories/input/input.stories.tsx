@@ -56,3 +56,106 @@ export const InputSizes: Story = {
     </div>
   ),
 };
+
+export const PrefixInput: Story = {
+  render: () => (
+    <div className="flex flex-col gap-10 mt-10">
+      <Input variant="ghost" label="ghost" hasPrefix inputPrefix="+97" />
+      <Input variant="primary" label="primary" hasPrefix inputPrefix="prefix" />
+      <Input
+        variant="secondary"
+        label="secondary"
+        hasPrefix
+        inputPrefix="prefix"
+      />
+      <Input variant="accent" label="accent" hasPrefix inputPrefix="prefix" />
+      <Input variant="info" label="info" hasPrefix inputPrefix="prefix" />
+      <Input variant="success" label="success" hasPrefix inputPrefix="prefix" />
+      <Input variant="warning" label="warning" hasPrefix inputPrefix="prefix" />
+      <Input variant="error" label="error" hasPrefix inputPrefix="prefix" />
+    </div>
+  ),
+};
+
+export const SuffixInput: Story = {
+  render: () => (
+    <div className="flex flex-col gap-10 mt-10">
+      <Input variant="ghost" label="ghost" hasSuffix inputSuffix="suffix" />
+      <Input variant="primary" label="primary" hasSuffix inputSuffix="suffix" />
+      <Input
+        variant="secondary"
+        label="secondary"
+        hasSuffix
+        inputSuffix="suffix"
+      />
+      <Input variant="accent" label="accent" hasSuffix inputSuffix="suffix" />
+      <Input variant="info" label="info" hasSuffix inputSuffix="suffix" />
+      <Input variant="success" label="success" hasSuffix inputSuffix="suffix" />
+      <Input variant="warning" label="warning" hasSuffix inputSuffix="suffix" />
+      <Input variant="error" label="error" hasSuffix inputSuffix="suffix" />
+    </div>
+  ),
+};
+
+export const PrefixAndSuffixInput: Story = {
+  render: () => (
+    <div className="flex flex-col gap-10 mt-10">
+      <Input
+        variant="primary"
+        label="primary"
+        hasSuffix
+        hasPrefix
+        inputPrefix="prefix"
+        inputSuffix="suffix"
+      />
+      <Input
+        variant="secondary"
+        label="secondary"
+        hasSuffix
+        hasPrefix
+        inputPrefix="prefix"
+        inputSuffix="suffix"
+      />
+      <Input
+        variant="accent"
+        label="accent"
+        hasSuffix
+        hasPrefix
+        inputPrefix="prefix"
+        inputSuffix="suffix"
+      />
+      <Input
+        variant="info"
+        label="info"
+        hasSuffix
+        hasPrefix
+        inputPrefix="prefix"
+        inputSuffix="suffix"
+      />
+      <Input
+        variant="success"
+        label="success"
+        hasSuffix
+        hasPrefix
+        inputPrefix="prefix"
+        inputSuffix="suffix"
+      />
+      <Input
+        variant="warning"
+        label="warning"
+        hasSuffix
+        hasPrefix
+        inputPrefix="prefix"
+        inputSuffix="suffix"
+      />
+      <Input
+        variant="error"
+        label="error"
+        hasSuffix
+        hasPrefix
+        inputPrefix="prefix"
+        inputSuffix="suffix"
+      />
+    </div>
+  ),
+};

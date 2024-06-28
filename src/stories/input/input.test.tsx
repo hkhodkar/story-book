@@ -20,7 +20,7 @@ describe("test input component", () => {
   ].forEach((item) => {
     test(`input with size ${item.size} should have correct class`, () => {
       render(<Input componentSize={item.size as Size} />);
-      const element = screen.getByTestId("input");
+      const element = screen.getByTestId("container-size");
       expect(element).toHaveClass(item.class);
     });
   });
