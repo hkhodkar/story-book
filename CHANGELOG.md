@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.7.0](https://github.com/mokkapps/changelog-generator-demo/compare/v1.6.0...v1.7.0) (2024-07-04)
+
+
+### Features
+
+* **dots loading:** add dots loading to project ([5812b3d](https://github.com/mokkapps/changelog-generator-demo/commits/5812b3d51d1a07780b6ee843d632f52145fd508f))
+
 ## [1.6.0](https://github.com/mokkapps/changelog-generator-demo/compare/v1.5.4...v1.6.0) (2024-06-28)
 
 
