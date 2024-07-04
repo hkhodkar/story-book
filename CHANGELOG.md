@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.7.1](https://github.com/mokkapps/changelog-generator-demo/compare/v1.7.0...v1.7.1) (2024-07-04)
+
+
+### Bug Fixes
+
+* **dots loading:** fix dots loading neutral colors ([7675470](https://github.com/mokkapps/changelog-generator-demo/commits/7675470cc38b6217908e51522208c871c1426e5c))
+
 ## [1.7.0](https://github.com/mokkapps/changelog-generator-demo/compare/v1.6.0...v1.7.0) (2024-07-04)
 
 
