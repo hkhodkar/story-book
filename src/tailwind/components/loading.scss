@@ -83,7 +83,7 @@
     }
 
     &-neutral {
-        @apply bg-neutral;
+        @apply bg-white dark:bg-dark-white;
     }
 
     &-ghost {
