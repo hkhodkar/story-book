@@ -23,27 +23,27 @@ export const Tests: Story = {
   args: {
     componentSize: "large",
     variant: "accent",
-    type: "spinner",
+    type: "spinner" || "ring" || "dots",
   },
   render: (args) => <Loading {...args}> loading </Loading>,
   decorators: [withTests({ results })],
 };
 
-export const LoadingSpinner: Story = {
+export const SpinnerLoading: Story = {
   parameters: {
     toolbar: { show: false },
   },
   render: () => (
     <>
-      <Loading componentSize="tiny" />
-      <Loading componentSize="small" />
-      <Loading componentSize="normal" />
-      <Loading componentSize="large" />
+      <Loading type="spinner" componentSize="tiny" />
+      <Loading type="spinner" componentSize="small" />
+      <Loading type="spinner" componentSize="normal" />
+      <Loading type="spinner" componentSize="large" />
     </>
   ),
 };
 
-export const LoadingRing: Story = {
+export const RingLoading: Story = {
   render: () => (
     <>
       <Loading componentSize="tiny" type="ring" />
@@ -54,17 +54,28 @@ export const LoadingRing: Story = {
   ),
 };
 
+export const DotsLoading: Story = {
+  render: () => (
+    <>
+      <Loading componentSize="tiny" type="dots" />
+      <Loading componentSize="small" type="dots" />
+      <Loading componentSize="normal" type="dots" />
+      <Loading componentSize="large" type="dots" />
+    </>
+  ),
+};
+
 export const SpinnerWithColors: Story = {
   render: () => (
     <>
-      <Loading variant="neutral" />
-      <Loading variant="primary" />
-      <Loading variant="secondary" />
-      <Loading variant="accent" />
-      <Loading variant="success" />
-      <Loading variant="info" />
-      <Loading variant="warning" />
-      <Loading variant="error" />
+      <Loading type="spinner" variant="neutral" />
+      <Loading type="spinner" variant="primary" />
+      <Loading type="spinner" variant="secondary" />
+      <Loading type="spinner" variant="accent" />
+      <Loading type="spinner" variant="success" />
+      <Loading type="spinner" variant="info" />
+      <Loading type="spinner" variant="warning" />
+      <Loading type="spinner" variant="error" />
     </>
   ),
 };
@@ -80,6 +91,21 @@ export const RingWithColors: Story = {
       <Loading componentSize="normal" type="ring" variant="info" />
       <Loading componentSize="normal" type="ring" variant="warning" />
       <Loading componentSize="normal" type="ring" variant="error" />
+    </>
+  ),
+};
+
+export const DotsWithColors: Story = {
+  render: () => (
+    <>
+      <Loading componentSize="normal" type="dots" variant="neutral" />
+      <Loading componentSize="normal" type="dots" variant="primary" />
+      <Loading componentSize="normal" type="dots" variant="secondary" />
+      <Loading componentSize="normal" type="dots" variant="accent" />
+      <Loading componentSize="normal" type="dots" variant="success" />
+      <Loading componentSize="normal" type="dots" variant="info" />
+      <Loading componentSize="normal" type="dots" variant="warning" />
+      <Loading componentSize="normal" type="dots" variant="error" />
     </>
   ),
 };

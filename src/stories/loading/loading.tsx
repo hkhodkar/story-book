@@ -10,6 +10,13 @@ const sizeClasses: Record<Size, string> = {
   large: "loading-lg",
 };
 
+const dotsLoadingClasses: Record<Size, string> = {
+  tiny: "dots-loading-xs",
+  small: "dots-loading-sm",
+  normal: "dots-loading-md",
+  large: "dots-loading-lg",
+};
+
 const Loading: React.FC<LoadingProps> = ({
   variant,
   type = "spinner",
@@ -23,7 +30,28 @@ const Loading: React.FC<LoadingProps> = ({
     { [`loading-${variant}`]: variant },
     { [`loading-${type}`]: type }
   );
-  return <span data-testid="loading" className={classes} />;
+
+  const dotsLoading = classNames(
+    "dots-loading",
+    className,
+    { [`${dotsLoadingClasses[size]}`]: size },
+    { [`dots-loading-${variant}`]: variant }
+  );
+  return (
+    <>
+      {(type === "ring" || type === "spinner") && (
+        <span data-testid="loading" className={classes} />
+      )}
+      {type === "dots" && (
+        <div className="flex space-x-2 justify-center items-center">
+          <span className="sr-only">Loading...</span>
+          <div className={`${dotsLoading} [animation-delay:-0.3s]`}></div>
+          <div className={`${dotsLoading} [animation-delay:-0.15s]`}></div>
+          <div className={`${dotsLoading}`}></div>
+        </div>
+      )}
+    </>
+  );
 };
 
 export default Loading;

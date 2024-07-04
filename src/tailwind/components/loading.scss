@@ -31,27 +31,90 @@
     }
 
     &-ghost {
-       @apply dark:text-base;
+        @apply dark:text-base;
     }
+
     &-primary {
         @apply text-primary dark:text-dark-primary;
     }
+
     &-secondary {
         @apply text-secondary dark:text-dark-secondary;
     }
+
     &-accent {
         @apply text-accent dark:text-dark-accent;
     }
+
     &-info {
         @apply text-info dark:text-dark-info;
     }
+
     &-success {
         @apply text-success dark:text-dark-success;
     }
+
     &-warning {
         @apply text-warning dark:text-dark-warning;
     }
+
     &-error {
         @apply text-error dark:text-dark-error;
+    }
+}
+
+.dots-loading {
+    @apply rounded-full animate-bounce;
+
+    &-xs {
+        @apply w-2 h-2;
+    }
+
+    &-sm {
+        @apply w-2.5 h-2.5;
+    }
+
+    &-md {
+        @apply w-3 h-3;
+    }
+
+    &-lg {
+        @apply w-3.5 h-3.5;
+    }
+
+    &-neutral {
+        @apply bg-neutral;
+    }
+
+    &-ghost {
+        @apply bg-neutral;
+    }
+
+    &-primary {
+        @apply bg-primary dark:bg-dark-primary;
+    }
+
+    &-secondary {
+        @apply bg-secondary dark:bg-dark-secondary;
+    }
+
+    &-accent {
+        @apply bg-accent dark:bg-dark-accent;
+    }
+
+    &-info {
+        @apply bg-info dark:bg-dark-info;
+    }
+
+    &-success {
+        @apply bg-success dark:bg-dark-success;
+    }
+
+    &-warning {
+        @apply bg-warning dark:bg-dark-warning;
+    }
+
+    &-error {
+        @apply bg-error dark:bg-dark-error;
     }
 }
