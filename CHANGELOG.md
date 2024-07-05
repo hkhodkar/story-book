@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.8.1](https://github.com/mokkapps/changelog-generator-demo/compare/v1.8.0...v1.8.1) (2024-07-05)
+
+
+### Bug Fixes
+
+* **report card:** add report card to npm ([9ffeb6a](https://github.com/mokkapps/changelog-generator-demo/commits/9ffeb6a6d692062f6b0125684c87053e4954e098))
+
 ## [1.8.0](https://github.com/mokkapps/changelog-generator-demo/compare/v1.7.1...v1.8.0) (2024-07-05)
 
 
