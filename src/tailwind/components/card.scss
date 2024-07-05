@@ -1,0 +1,52 @@
+.card {
+
+    @apply flex justify-between items-center p-5 rounded-md gap-3 text-white;
+
+    &-icon {
+        @apply flex items-center justify-center w-12 h-12 rounded-full;
+    }
+
+    &-primary {
+        @apply bg-primary dark:bg-dark-primary focus:ring-primary dark:focus:ring-dark-primary;
+    }
+
+    &-secondary {
+        @apply bg-secondary dark:bg-dark-secondary focus:ring-secondary dark:focus:ring-dark-secondary;
+    }
+
+    &-accent {
+        @apply bg-accent dark:bg-dark-accent focus:ring-green-500 dark:focus:ring-green-600;
+    }
+
+    &-info {
+        @apply bg-info dark:bg-dark-info focus:ring-info dark:focus:ring-dark-info;
+    }
+
+    &-success {
+        @apply bg-success dark:bg-dark-success focus:ring-success dark:focus:ring-dark-success;
+    }
+
+    &-warning {
+        @apply bg-warning dark:bg-dark-warning focus:ring-warning dark:focus:ring-dark-warning;
+    }
+
+    &-error {
+        @apply bg-error dark:bg-dark-error focus:ring-error dark:focus:ring-dark-error;
+    }
+
+    &-xs {
+        @apply w-52 h-36;
+    }
+
+    &-sm {
+        @apply w-80 h-36;
+    }
+
+    &-md {
+        @apply w-96 h-36;
+    }
+
+    &-lg {
+        @apply w-[460px] h-36
+    }
+}
