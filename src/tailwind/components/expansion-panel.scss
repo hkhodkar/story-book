@@ -1,0 +1,55 @@
+.expansion-panel {
+    @apply flex justify-between items-center p-4 cursor-pointer rounded-t-md;
+
+    &-neutral {
+        @apply bg-neutral dark:bg-dark-neutral;
+    }
+
+    &-primary {
+        @apply bg-primary dark:bg-dark-primary;
+    }
+
+    &-accent {
+        @apply bg-accent dark:bg-dark-accent;
+    }
+
+    &-secondary {
+        @apply bg-secondary dark:bg-dark-secondary;
+    }
+
+    &-ghost {
+        @apply bg-current dark:bg-current;
+    }
+
+    &-warning {
+        @apply bg-warning dark:bg-dark-warning;
+    }
+
+    &-success {
+        @apply bg-success dark:bg-dark-success;
+    }
+
+    &-info {
+        @apply bg-info dark:bg-dark-info;
+    }
+
+    &-error {
+        @apply bg-error dark:bg-dark-error;
+    }
+
+    &-xs {
+        @apply w-32;
+    }
+
+    &-sm {
+        @apply w-48;
+    }
+
+    &-md {
+        @apply w-1/2;
+    }
+
+    &-lg {
+        @apply w-full;
+    }
+}
