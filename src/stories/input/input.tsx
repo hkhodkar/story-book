@@ -54,7 +54,7 @@ const Input: React.FC<InputProps> = ({
     [`${sizeClasses[componentSize]}`]: componentSize,
   });
 
-  const borderClass = `flex p-2 justify-center items-center border-[1px]`;
+  const borderClass = `flex p-2 justify-center items-center border-[1px] text-neutral dark:text-white`;
 
   const borderColor = themeColors[variant];
 
