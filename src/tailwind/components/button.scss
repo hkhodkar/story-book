@@ -120,7 +120,7 @@
 
     /* btn variants */
     &-ghost {
-        @apply border border-transparent bg-transparent text-current outline-current;
+        @apply border border-transparent bg-transparent text-neutral dark:text-white outline-current;
 
         @media (hover: hover) {
             &:hover {

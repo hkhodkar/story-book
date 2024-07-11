@@ -14,6 +14,10 @@ export default meta;
 type Story = StoryObj<typeof Button>;
 
 export const Tests: Story = {
+  args: {
+    variant: "primary",
+  },
+
   render: (args) => <Button {...args}>click here</Button>,
 };
 
