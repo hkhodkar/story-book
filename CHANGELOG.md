@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.9.0](https://github.com/mokkapps/changelog-generator-demo/compare/v1.8.1...v1.9.0) (2024-07-11)
+
+
+### Features
+
+* **expansion panel:** add expansion panel ([a35fc21](https://github.com/mokkapps/changelog-generator-demo/commits/a35fc211e92a0b0695cf1d884fde4e22e92a1acd))
+
+
+### Bug Fixes
+
+* **input:** add color for suffix and prefix inputs ([6de0ec3](https://github.com/mokkapps/changelog-generator-demo/commits/6de0ec32b1e01c0ca39c92aca8c6ccbc536e6384))
+
 ### [1.8.1](https://github.com/mokkapps/changelog-generator-demo/compare/v1.8.0...v1.8.1) (2024-07-05)
 
 
