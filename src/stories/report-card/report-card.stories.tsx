@@ -1,5 +1,5 @@
 import React from "react";
-import ReportCard from "./reportCard";
+import ReportCard from "./report-card";
 import { Meta, StoryObj } from "@storybook/react";
 import { withTests } from "@storybook/addon-jest";
 import results from "../../../.jest-test-results.json";

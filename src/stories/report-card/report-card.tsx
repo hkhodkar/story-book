@@ -2,7 +2,7 @@ import React, { FC } from "react";
 import classNames from "classnames";
 
 import { Size } from "../../types/size.type";
-import { reportCardType } from "./reportCard.type";
+import { reportCardType } from "./report-card.type";
 
 const sizeClasses: Record<Size, string> = {
   tiny: "card-xs",

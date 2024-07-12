@@ -2,7 +2,7 @@ import React from "react";
 import "@testing-library/jest-dom";
 import { render, screen } from "@testing-library/react";
 
-import ReportCard from "./reportCard";
+import ReportCard from "./report-card";
 import { Size } from "../../types/size.type";
 import { Variant } from "../../types/variant.type";
 
