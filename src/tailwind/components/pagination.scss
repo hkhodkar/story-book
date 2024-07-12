@@ -1,0 +1,38 @@
+.pagination {
+
+    &-neutral {
+        @apply bg-neutral dark:bg-dark-neutral text-white;
+    }
+
+    &-primary {
+        @apply bg-primary dark:bg-dark-primary;
+    }
+
+    &-secondary {
+        @apply bg-secondary dark:bg-dark-secondary;
+    }
+
+    &-accent {
+        @apply bg-accent dark:bg-dark-accent;
+    }
+
+    &-ghost {
+        @apply bg-transparent;
+    }
+
+    &-info {
+        @apply bg-info dark:bg-dark-info
+    }
+
+    &-warning {
+        @apply bg-warning dark:bg-dark-warning
+    }
+
+    &-success {
+        @apply bg-success dark:bg-dark-success
+    }
+
+    &-error {
+        @apply bg-error dark:bg-dark-error
+    }
+}

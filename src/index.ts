@@ -6,4 +6,5 @@ export { default as Checkbox } from "./stories/checkbox/checkbox";
 export { default as ReportCard } from "./stories/reportCard/reportCard";
 export { default as Select } from "./stories/select/select";
 export { default as ExpansionPanel } from "./stories/expansion-panel/expansion-panel";
+export { default as Pagination } from "./stories/pagination/pagination";
 import "./index.scss";
