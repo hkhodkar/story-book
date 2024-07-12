@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.10.0](https://github.com/mokkapps/changelog-generator-demo/compare/v1.9.0...v1.10.0) (2024-07-12)
+
+
+### Features
+
+* **select:** add select component and stories ([d571bd5](https://github.com/mokkapps/changelog-generator-demo/commits/d571bd5cfa99d8ded23e704299f75b4a08ba9a29))
+
 ## [1.9.0](https://github.com/mokkapps/changelog-generator-demo/compare/v1.8.1...v1.9.0) (2024-07-11)
 
 
