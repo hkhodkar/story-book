@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.11.0](https://github.com/mokkapps/changelog-generator-demo/compare/v1.10.2...v1.11.0) (2024-07-12)
+
+
+### Features
+
+* **pagination:** add pagination component and stories ([49db9fd](https://github.com/mokkapps/changelog-generator-demo/commits/49db9fddf520b3f6b5c24a277283dcb38805e29d))
+
+
+### Bug Fixes
+
+* **theme:** set dark theme for stories ([2dc9f3d](https://github.com/mokkapps/changelog-generator-demo/commits/2dc9f3d58ae5d808727fa0b19ad2f7754a2deebe))
+
 ### [1.10.2](https://github.com/mokkapps/changelog-generator-demo/compare/v1.10.1...v1.10.2) (2024-07-12)
 
 
