@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.10.1](https://github.com/mokkapps/changelog-generator-demo/compare/v1.10.0...v1.10.1) (2024-07-12)
+
+
+### Bug Fixes
+
+* add select and expansion panel to npm package ([aa094e7](https://github.com/mokkapps/changelog-generator-demo/commits/aa094e7acea4a6949ee8aa62556da0aafeead58e))
+
 ## [1.10.0](https://github.com/mokkapps/changelog-generator-demo/compare/v1.9.0...v1.10.0) (2024-07-12)
 
 
