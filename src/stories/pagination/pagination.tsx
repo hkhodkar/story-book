@@ -29,17 +29,18 @@ const Pagination: React.FC<PaginationProps> = ({
           Previous
         </button>
       )}
-      {pages.map((page) => (
-        <button
-          key={page}
-          className={`px-4 py-2 mx-1 border rounded-md ${
-            page === currentPage ? `${classes}` : ""
-          }`}
-          onClick={() => onPageChange(page)}
-        >
-          {page}
-        </button>
-      ))}
+      {totalPages > 1 &&
+        pages.map((page) => (
+          <button
+            key={page}
+            className={`px-4 py-2 mx-1 border rounded-md ${
+              page === currentPage ? `${classes}` : ""
+            }`}
+            onClick={() => onPageChange(page)}
+          >
+            {page}
+          </button>
+        ))}
       {totalPages > 1 && (
         <button
           className={`${classes} px-4 py-2 mx-1 cursor-pointer border rounded-md`}
