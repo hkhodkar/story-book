@@ -20,13 +20,15 @@ const Pagination: React.FC<PaginationProps> = ({
       data-testid="pagination"
       className={`${className} flex justify-center my-4 text-neutral dark:text-white`}
     >
-      <button
-        className={`${classes} px-4 py-2 mx-1 border cursor-pointer rounded-md`}
-        disabled={currentPage === 1}
-        onClick={() => onPageChange(currentPage - 1)}
-      >
-        Previous
-      </button>
+      {totalPages > 1 && (
+        <button
+          className={`${classes} px-4 py-2 mx-1 border cursor-pointer rounded-md`}
+          disabled={currentPage === 1}
+          onClick={() => onPageChange(currentPage - 1)}
+        >
+          Previous
+        </button>
+      )}
       {pages.map((page) => (
         <button
           key={page}
@@ -38,13 +40,15 @@ const Pagination: React.FC<PaginationProps> = ({
           {page}
         </button>
       ))}
-      <button
-        className={`${classes} px-4 py-2 mx-1 cursor-pointer border rounded-md`}
-        disabled={currentPage === totalPages}
-        onClick={() => onPageChange(currentPage + 1)}
-      >
-        Next
-      </button>
+      {totalPages > 1 && (
+        <button
+          className={`${classes} px-4 py-2 mx-1 cursor-pointer border rounded-md`}
+          disabled={currentPage === totalPages}
+          onClick={() => onPageChange(currentPage + 1)}
+        >
+          Next
+        </button>
+      )}
     </div>
   );
 };
