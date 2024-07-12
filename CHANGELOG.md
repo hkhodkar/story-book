@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.10.2](https://github.com/mokkapps/changelog-generator-demo/compare/v1.10.1...v1.10.2) (2024-07-12)
+
+
+### Bug Fixes
+
+* **select:** fix change select value not work in npm package ([af473ec](https://github.com/mokkapps/changelog-generator-demo/commits/af473eccfb8c96ce1f4900b7b70493ea4f141601))
+
 ### [1.10.1](https://github.com/mokkapps/changelog-generator-demo/compare/v1.10.0...v1.10.1) (2024-07-12)
 
 
