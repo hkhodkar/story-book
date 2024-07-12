@@ -16,12 +16,12 @@ const Select: React.FC<SelectProps> = ({
   className,
   options,
   componentSize = "large",
+  value,
+  onChange,
 }) => {
-  const [value, setValue] = useState("");
-
-  function handleOnChange(e: ChangeEvent<HTMLSelectElement>): void {
-    setValue(e.target.value);
-  }
+  const handleChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
+    if (onChange) onChange(event.target.value);
+  };
 
   const classes = classNames("select", className, {
     [`select-${variant}`]: variant,
@@ -37,7 +37,7 @@ const Select: React.FC<SelectProps> = ({
         data-testid="select"
         className={classes}
         value={value}
-        onChange={handleOnChange}
+        onChange={handleChange}
       >
         {options?.map((option) => (
           <option key={option.value} value={option.value}>

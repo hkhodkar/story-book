@@ -8,7 +8,7 @@ import { Variant } from "../../types/variant.type";
 
 describe("select Component", () => {
   test("renders a default select", () => {
-    render(<Select title="select"></Select>);
+    render(<Select></Select>);
     expect(screen.getByTestId("select")).toBeInTheDocument();
   });
 
@@ -36,11 +36,7 @@ describe("select Component", () => {
   ].forEach((item) => {
     test(`applies the correct class for ${item.size} select`, () => {
       render(
-        <Select
-          title="select"
-          variant="primary"
-          componentSize={item.size as Size}
-        ></Select>
+        <Select variant="primary" componentSize={item.size as Size}></Select>
       );
       expect(screen.getByTestId("select-size")).toHaveClass(`${item.class}`);
     });
