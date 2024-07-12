@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.11.1](https://github.com/mokkapps/changelog-generator-demo/compare/v1.11.0...v1.11.1) (2024-07-12)
+
+
+### Bug Fixes
+
+* **pagination:** set colors for buttons ([1495bd7](https://github.com/mokkapps/changelog-generator-demo/commits/1495bd7bffc1a4507584d56d94a8b6fcd852349f))
+
 ## [1.11.0](https://github.com/mokkapps/changelog-generator-demo/compare/v1.10.2...v1.11.0) (2024-07-12)
 
 
