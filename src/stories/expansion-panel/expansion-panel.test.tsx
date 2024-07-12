@@ -6,9 +6,11 @@ import { Size } from "../../types/size.type";
 import ExpansionPanel from "./expansion-panel";
 import { Variant } from "../../types/variant.type";
 
-fdescribe("Expansion panel Component", () => {
+describe("Expansion panel Component", () => {
   test("renders a default expansion", () => {
-    render(<ExpansionPanel title="expansion">click here</ExpansionPanel>);
+    render(
+      <ExpansionPanel title="expansion">expansion content</ExpansionPanel>
+    );
     expect(screen.getByTestId("expansion")).toBeInTheDocument();
   });
 
@@ -25,7 +27,9 @@ fdescribe("Expansion panel Component", () => {
   ].forEach((variant) => {
     test(`applies the correct css class for ${variant} expansion`, () => {
       render(
-        <ExpansionPanel variant={variant as Variant}>click here</ExpansionPanel>
+        <ExpansionPanel variant={variant as Variant}>
+          expansion content
+        </ExpansionPanel>
       );
       expect(screen.getByTestId("expansion")).toHaveClass(
         `expansion-panel-${variant}`
