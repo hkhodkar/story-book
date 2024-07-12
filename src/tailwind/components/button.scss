@@ -229,35 +229,35 @@
 
     /* disabled and shape */
     &-neutral-disabled {
-        @apply text-neutral dark:text-white disabled:dark:bg-dark-neutral-disabled disabled:bg-neutral-disabled disabled:hover:cursor-not-allowed;
+        @apply text-neutral border-none dark:text-white disabled:dark:bg-dark-neutral-disabled disabled:bg-neutral-disabled disabled:hover:cursor-not-allowed;
     }
 
     &-primary-disabled {
-        @apply text-neutral dark:text-white disabled:dark:bg-dark-primary-disabled disabled:bg-primary-disabled disabled:hover:cursor-not-allowed;
+        @apply text-neutral border-none dark:text-white disabled:dark:bg-dark-primary-disabled disabled:bg-primary-disabled disabled:hover:cursor-not-allowed;
     }
 
     &-secondary-disabled {
-        @apply text-neutral dark:text-white disabled:dark:bg-dark-secondary-disabled disabled:bg-secondary-disabled disabled:hover:cursor-not-allowed;
+        @apply text-neutral border-none dark:text-white disabled:dark:bg-dark-secondary-disabled disabled:bg-secondary-disabled disabled:hover:cursor-not-allowed;
     }
 
     &-accent-disabled {
-        @apply text-neutral dark:text-white disabled:dark:bg-dark-accent-disabled disabled:bg-accent-disabled disabled:hover:cursor-not-allowed;
+        @apply text-neutral border-none dark:text-white disabled:dark:bg-dark-accent-disabled disabled:bg-accent-disabled disabled:hover:cursor-not-allowed;
     }
 
     &-info-disabled {
-        @apply text-neutral dark:text-white disabled:dark:bg-dark-info-disabled disabled:bg-info-disabled disabled:hover:cursor-not-allowed;
+        @apply text-neutral border-none dark:text-white disabled:dark:bg-dark-info-disabled disabled:bg-info-disabled disabled:hover:cursor-not-allowed;
     }
 
     &-success-disabled {
-        @apply text-neutral dark:text-white disabled:dark:bg-dark-success-disabled disabled:bg-success-disabled disabled:hover:cursor-not-allowed;
+        @apply text-neutral border-none dark:text-white disabled:dark:bg-dark-success-disabled disabled:bg-success-disabled disabled:hover:cursor-not-allowed;
     }
 
     &-warning-disabled {
-        @apply text-neutral dark:text-white disabled:dark:bg-dark-warning-disabled disabled:bg-warning-disabled disabled:hover:cursor-not-allowed;
+        @apply text-neutral border-none dark:text-white disabled:dark:bg-dark-warning-disabled disabled:bg-warning-disabled disabled:hover:cursor-not-allowed;
     }
 
     &-error-disabled {
-        @apply text-neutral dark:text-white disabled:dark:bg-dark-error-disabled disabled:bg-error-disabled disabled:hover:cursor-not-allowed;
+        @apply text-neutral border-none dark:text-white disabled:dark:bg-dark-error-disabled disabled:bg-error-disabled disabled:hover:cursor-not-allowed;
     }
 
 
