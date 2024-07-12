@@ -15,12 +15,16 @@ type Story = StoryObj<typeof Checkbox>;
 
 export const Test: Story = {
   decorators: [withTests({ results })],
-  render: (args) => <Checkbox {...args} label={args.label ?? "checkbox"} />,
+  render: (args) => (
+    <div className="dark:bg-neutral rounded-md p-8">
+      <Checkbox {...args} label={args.label ?? "checkbox"} />
+    </div>
+  ),
 };
 
 export const BrandColors: Story = {
   render: () => (
-    <div className="flex flex-col gap-4">
+    <div className="flex flex-col gap-4 dark:bg-neutral rounded-md p-8">
       <Checkbox variant="neutral" label="neutral" checked />
       <Checkbox variant="primary" label="primary" checked />
       <Checkbox variant="secondary" label="secondary" checked />
@@ -31,7 +35,7 @@ export const BrandColors: Story = {
 
 export const StateColors: Story = {
   render: () => (
-    <div className="flex flex-col gap-4">
+    <div className="flex flex-col gap-4 dark:bg-neutral rounded-md p-8">
       <Checkbox variant="success" label="success" checked />
       <Checkbox variant="info" label="info" checked />
       <Checkbox variant="warning" label="warning" checked />
@@ -42,7 +46,7 @@ export const StateColors: Story = {
 
 export const CheckboxSizes: Story = {
   render: () => (
-    <div className="flex flex-col gap-4">
+    <div className="flex flex-col gap-4 dark:bg-neutral rounded-md p-8">
       <Checkbox variant="primary" componentSize="tiny" label="tiny" checked />
       <Checkbox variant="primary" componentSize="small" label="small" checked />
       <Checkbox

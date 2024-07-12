@@ -17,7 +17,7 @@ type Story = StoryObj<typeof Input>;
 export const Tests: Story = {
   render: ({ ...args }) => {
     return (
-      <div className="mt-10">
+      <div className="mt-10 dark:bg-neutral rounded-md p-8">
         <Input {...args} label={args.label ?? "Label"} />
       </div>
     );
@@ -26,7 +26,7 @@ export const Tests: Story = {
 
 export const BrandColors: Story = {
   render: () => (
-    <div className="flex flex-col gap-10 mt-10">
+    <div className="flex flex-col gap-10 mt-10 dark:bg-neutral rounded-md p-8">
       <Input variant="neutral" label="neutral" />
       <Input variant="primary" label="primary" />
       <Input variant="secondary" label="secondary" />
@@ -37,7 +37,7 @@ export const BrandColors: Story = {
 
 export const StateColors: Story = {
   render: () => (
-    <div className="flex flex-col gap-10 mt-10">
+    <div className="flex flex-col gap-10 mt-10 dark:bg-neutral rounded-md p-8">
       <Input variant="success" label="success" />
       <Input variant="info" label="info" />
       <Input variant="warning" label="warning" />
@@ -48,7 +48,7 @@ export const StateColors: Story = {
 
 export const InputSizes: Story = {
   render: () => (
-    <div className="flex flex-col gap-10 mt-10">
+    <div className="flex flex-col gap-10 mt-10 dark:bg-neutral rounded-md p-8">
       <Input componentSize="tiny" variant="accent" label="tiny" />
       <Input componentSize="small" variant="accent" label="small" />
       <Input componentSize="normal" variant="accent" label="normal" />
@@ -59,7 +59,7 @@ export const InputSizes: Story = {
 
 export const PrefixInput: Story = {
   render: () => (
-    <div className="flex flex-col gap-10 mt-10">
+    <div className="flex flex-col gap-10 mt-10 dark:bg-neutral rounded-md p-8">
       <Input variant="ghost" label="ghost" hasPrefix inputPrefix="ghost" />
       <Input variant="primary" label="primary" hasPrefix inputPrefix="prefix" />
       <Input
@@ -79,7 +79,7 @@ export const PrefixInput: Story = {
 
 export const SuffixInput: Story = {
   render: () => (
-    <div className="flex flex-col gap-10 mt-10">
+    <div className="flex flex-col gap-10 mt-10 dark:bg-neutral rounded-md p-8">
       <Input variant="ghost" label="ghost" hasSuffix inputSuffix="suffix" />
       <Input variant="primary" label="primary" hasSuffix inputSuffix="suffix" />
       <Input
@@ -99,7 +99,7 @@ export const SuffixInput: Story = {
 
 export const PrefixAndSuffixInput: Story = {
   render: () => (
-    <div className="flex flex-col gap-10 mt-10">
+    <div className="flex flex-col gap-10 mt-10 dark:bg-neutral rounded-md p-8">
       <Input
         variant="primary"
         label="primary"
