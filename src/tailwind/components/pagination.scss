@@ -1,19 +1,19 @@
 .pagination {
 
     &-neutral {
-        @apply bg-neutral dark:bg-dark-neutral text-white;
+        @apply bg-neutral dark:bg-dark-neutral text-white hover:bg-dark-neutral dark:hover:bg-neutral;
     }
 
     &-primary {
-        @apply bg-primary dark:bg-dark-primary;
+        @apply bg-primary dark:bg-dark-primary hover:bg-dark-primary dark:hover:bg-primary;
     }
 
     &-secondary {
-        @apply bg-secondary dark:bg-dark-secondary;
+        @apply bg-secondary dark:bg-dark-secondary hover:bg-dark-secondary dark:hover:bg-secondary;
     }
 
     &-accent {
-        @apply bg-accent dark:bg-dark-accent;
+        @apply bg-accent dark:bg-dark-accent hover:bg-dark-accent dark:hover:bg-accent;
     }
 
     &-ghost {
@@ -21,18 +21,18 @@
     }
 
     &-info {
-        @apply bg-info dark:bg-dark-info
+        @apply bg-info dark:bg-dark-info hover:bg-dark-info dark:hover:bg-info;
     }
 
     &-warning {
-        @apply bg-warning dark:bg-dark-warning
+        @apply bg-warning dark:bg-dark-warning hover:bg-dark-warning dark:hover:bg-warning;
     }
 
     &-success {
-        @apply bg-success dark:bg-dark-success
+        @apply bg-success dark:bg-dark-success hover:bg-dark-success dark:hover:bg-success;
     }
 
     &-error {
-        @apply bg-error dark:bg-dark-error
+        @apply bg-error dark:bg-dark-error hover:bg-dark-error dark:hover:bg-error;
     }
 }
