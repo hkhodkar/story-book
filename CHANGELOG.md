@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.11.3](https://github.com/mokkapps/changelog-generator-demo/compare/v1.11.2...v1.11.3) (2024-07-12)
+
+
+### Bug Fixes
+
+* **pagination:** hide pagination next and previous button when total page is less than one ([fe93873](https://github.com/mokkapps/changelog-generator-demo/commits/fe9387333d7c1473f9546c36433c05720c4a7065))
+
 ### [1.11.2](https://github.com/mokkapps/changelog-generator-demo/compare/v1.11.1...v1.11.2) (2024-07-12)
 
 
