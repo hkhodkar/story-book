@@ -11,7 +11,9 @@ const Pagination: React.FC<PaginationProps> = ({
 }) => {
   const pages = Array.from({ length: totalPages }, (_, i) => i + 1);
 
-  const classes = classNames({ [`pagination-${variant}`]: variant });
+  const classes = classNames("text-white", {
+    [`pagination-${variant}`]: variant,
+  });
 
   return (
     <div
@@ -19,7 +21,7 @@ const Pagination: React.FC<PaginationProps> = ({
       className={`${className} flex justify-center my-4 text-neutral dark:text-white`}
     >
       <button
-        className="px-4 py-2 mx-1 border cursor-pointer rounded-md"
+        className={`${classes} px-4 py-2 mx-1 border cursor-pointer rounded-md`}
         disabled={currentPage === 1}
         onClick={() => onPageChange(currentPage - 1)}
       >
@@ -37,7 +39,7 @@ const Pagination: React.FC<PaginationProps> = ({
         </button>
       ))}
       <button
-        className="px-4 py-2 mx-1 cursor-pointer border rounded-md"
+        className={`${classes} px-4 py-2 mx-1 cursor-pointer border rounded-md`}
         disabled={currentPage === totalPages}
         onClick={() => onPageChange(currentPage + 1)}
       >
