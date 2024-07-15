@@ -5,7 +5,7 @@ import { render, screen } from "@testing-library/react";
 import { Size } from "../../types/size.type";
 import { Variant } from "../../types/variant.type";
 
-describe.only("checkbox component:", () => {
+describe("checkbox component:", () => {
   test("default checkbox should be render in document", () => {
     render(<CustomCheckbox label="Label" />);
     const element = screen.getByTestId("checkbox");
