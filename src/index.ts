@@ -7,4 +7,5 @@ export { default as ReportCard } from "./stories/report-card/report-card";
 export { default as Select } from "./stories/select/select";
 export { default as ExpansionPanel } from "./stories/expansion-panel/expansion-panel";
 export { default as Pagination } from "./stories/pagination/pagination";
+export { default as Colors } from "./stories/colors/colors";
 import "./index.scss";

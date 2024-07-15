@@ -1,0 +1,39 @@
+.color {
+    @apply w-20 h-20 rounded-md flex justify-center items-center text-white;
+
+    &-neutral {
+        @apply bg-neutral dark:bg-dark-neutral;
+    }
+
+    &-primary {
+        @apply bg-primary dark:bg-dark-primary;
+    }
+
+    &-secondary {
+        @apply bg-secondary dark:bg-dark-secondary;
+    }
+
+    &-accent {
+        @apply bg-accent dark:bg-dark-accent;
+    }
+
+    &-ghost {
+        @apply bg-transparent text-neutral;
+    }
+
+    &-success {
+        @apply bg-success dark:bg-dark-success;
+    }
+
+    &-warning {
+        @apply bg-warning dark:bg-dark-warning;
+    }
+
+    &-info {
+        @apply bg-info dark:bg-dark-info;
+    }
+
+    &-error {
+        @apply bg-error dark:bg-dark-error;
+    }
+}
