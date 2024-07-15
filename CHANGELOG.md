@@ -2,6 +2,45 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.12.0](https://github.com/mokkapps/changelog-generator-demo/compare/v1.3.0...v1.12.0) (2024-07-15)
+
+
+### Features
+
+* **button:** add disabled button for variants ([dfe082d](https://github.com/mokkapps/changelog-generator-demo/commits/dfe082d2d8b33bb51d6e9033c2c72a0f76f73e1c))
+* **card:** add card component ([bf5db78](https://github.com/mokkapps/changelog-generator-demo/commits/bf5db78969241fe5caa9418f17bb767d956bab89))
+* **checkbox:** add checkbox component, story and tests ([d659793](https://github.com/mokkapps/changelog-generator-demo/commits/d6597932bff82f97248456fed230340aec067304))
+* **color:** implement color component and stories ([e81b8af](https://github.com/mokkapps/changelog-generator-demo/commits/e81b8af9f528874e60a75b42e2728a72e6945dee))
+* **dots loading:** add dots loading to project ([5812b3d](https://github.com/mokkapps/changelog-generator-demo/commits/5812b3d51d1a07780b6ee843d632f52145fd508f))
+* **expansion panel:** add expansion panel ([a35fc21](https://github.com/mokkapps/changelog-generator-demo/commits/a35fc211e92a0b0695cf1d884fde4e22e92a1acd))
+* **input:** add prefix and suffix input to project ([b9240b6](https://github.com/mokkapps/changelog-generator-demo/commits/b9240b601f891ca56849680eaaf71330419e86c3))
+* **pagination:** add pagination component and stories ([49db9fd](https://github.com/mokkapps/changelog-generator-demo/commits/49db9fddf520b3f6b5c24a277283dcb38805e29d))
+* **select:** add select component and stories ([d571bd5](https://github.com/mokkapps/changelog-generator-demo/commits/d571bd5cfa99d8ded23e704299f75b4a08ba9a29))
+
+
+### Bug Fixes
+
+* add select and expansion panel to npm package ([aa094e7](https://github.com/mokkapps/changelog-generator-demo/commits/aa094e7acea4a6949ee8aa62556da0aafeead58e))
+* **button:** add dark mode to button component ([c6b2f58](https://github.com/mokkapps/changelog-generator-demo/commits/c6b2f5852bf94237d4c381573a1fa2fa06ed15b1))
+* **checkbox:** add checkbox component to the output of npm package ([77ca57b](https://github.com/mokkapps/changelog-generator-demo/commits/77ca57bba4a8d20bd49d7ff24af1fa14f81588e9))
+* **dots loading:** fix dots loading neutral colors ([7675470](https://github.com/mokkapps/changelog-generator-demo/commits/7675470cc38b6217908e51522208c871c1426e5c))
+* **input:** add color for suffix and prefix inputs ([6de0ec3](https://github.com/mokkapps/changelog-generator-demo/commits/6de0ec32b1e01c0ca39c92aca8c6ccbc536e6384))
+* **input:** add input in npm package ([31d7ba3](https://github.com/mokkapps/changelog-generator-demo/commits/31d7ba311d9d44bc4a644b06b2ac94e53a2a24ac))
+* **input:** fix floating label position ([54b856b](https://github.com/mokkapps/changelog-generator-demo/commits/54b856b22323678f8190dc8decc35b61247c7e26))
+* **input:** remove custom types ([2dad910](https://github.com/mokkapps/changelog-generator-demo/commits/2dad910fd7e7fbae7aaaef0faee161e7d5c46a3d))
+* **input:** set onChange and value props ([f419e94](https://github.com/mokkapps/changelog-generator-demo/commits/f419e9418701459a434936b5228b12f3d85005fe))
+* **input:** set width full for input container class ([cefc648](https://github.com/mokkapps/changelog-generator-demo/commits/cefc648218ca842c3598b84b54bedc08a759e44e))
+* **label color:** fix color of labels ([dadb908](https://github.com/mokkapps/changelog-generator-demo/commits/dadb908eeef39802be12dc2f3fc90fa7fd22d257))
+* **package.json:** fix package.json output ([e9eef49](https://github.com/mokkapps/changelog-generator-demo/commits/e9eef4937824d342d2e85062af00a0ec820fd3c8))
+* **pagination:** add hover color for dark and light them on the buttons ([026d803](https://github.com/mokkapps/changelog-generator-demo/commits/026d803e81d03676ddf81650c0fa733038223583))
+* **pagination:** hide page number when total page is less than one ([0c5b9ed](https://github.com/mokkapps/changelog-generator-demo/commits/0c5b9edba72381ee85d7cd6ca180b3762c25be92))
+* **pagination:** hide pagination next and previous button when total page is less than one ([fe93873](https://github.com/mokkapps/changelog-generator-demo/commits/fe9387333d7c1473f9546c36433c05720c4a7065))
+* **pagination:** set colors for buttons ([1495bd7](https://github.com/mokkapps/changelog-generator-demo/commits/1495bd7bffc1a4507584d56d94a8b6fcd852349f))
+* **report card:** add report card to npm ([9ffeb6a](https://github.com/mokkapps/changelog-generator-demo/commits/9ffeb6a6d692062f6b0125684c87053e4954e098))
+* **select:** fix change select value not work in npm package ([af473ec](https://github.com/mokkapps/changelog-generator-demo/commits/af473eccfb8c96ce1f4900b7b70493ea4f141601))
+* **styles:** export all component styles in npm package ([7b74732](https://github.com/mokkapps/changelog-generator-demo/commits/7b74732f7ea66fd94684d2eae047bfaafd613aab))
+* **theme:** set dark theme for stories ([2dc9f3d](https://github.com/mokkapps/changelog-generator-demo/commits/2dc9f3d58ae5d808727fa0b19ad2f7754a2deebe))
+
 ### [1.11.4](https://github.com/mokkapps/changelog-generator-demo/compare/v1.11.3...v1.11.4) (2024-07-12)
 
 
