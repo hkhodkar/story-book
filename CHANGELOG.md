@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.13.0](https://github.com/mokkapps/changelog-generator-demo/compare/v1.12.0...v1.13.0) (2024-07-15)
+
+
+### Features
+
+* **dialog/bottom-sheet:** implements dialog and bottom-sheet with stories ([00486ca](https://github.com/mokkapps/changelog-generator-demo/commits/00486cab9584c5f2e5bbf32bfe25e3574e2973dc))
+
 ## [1.12.0](https://github.com/mokkapps/changelog-generator-demo/compare/v1.3.0...v1.12.0) (2024-07-15)
 
 
