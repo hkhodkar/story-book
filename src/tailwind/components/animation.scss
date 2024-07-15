@@ -1,0 +1,57 @@
+/* Fade in animation */
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  /* Fade out animation */
+  @keyframes fadeOut {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }
+  
+  /* Slide up animation for bottom sheet */
+  @keyframes slideUp {
+    from {
+      transform: translateY(100%);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+  
+  /* Slide down animation for bottom sheet */
+  @keyframes slideDown {
+    from {
+      transform: translateY(0);
+    }
+    to {
+      transform: translateY(100%);
+    }
+  }
+  
+  /* Apply animations */
+  .fade-in {
+    animation: fadeIn 0.3s forwards;
+  }
+  
+  .fade-out {
+    animation: fadeOut 0.3s forwards;
+  }
+  
+  .slide-up {
+    animation: slideUp 0.3s forwards;
+  }
+  
+  .slide-down {
+    animation: slideDown 0.3s forwards;
+  }
+  
