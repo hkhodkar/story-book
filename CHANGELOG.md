@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.13.2](https://github.com/mokkapps/changelog-generator-demo/compare/v1.13.1...v1.13.2) (2024-07-19)
+
+
+### Bug Fixes
+
+* **bottom sheet:** decrease padding on bottom sheet ([aae966f](https://github.com/mokkapps/changelog-generator-demo/commits/aae966f48f945e11b8bf1e3deb1f8400dec25f4a))
+
 ### [1.13.1](https://github.com/mokkapps/changelog-generator-demo/compare/v1.13.0...v1.13.1) (2024-07-19)
 
 
