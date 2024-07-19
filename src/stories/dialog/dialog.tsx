@@ -24,7 +24,7 @@ const Dialog: React.FC<DialogProps> = ({
         onClick={handleOnClose}
       ></div>
       <div
-        className={`bg-white rounded-lg p-8 z-10 max-w-lg mx-auto shadow-lg ${
+        className={`bg-white dark:bg-neutral dark:text-white rounded-lg p-8 z-10 max-w-lg mx-auto shadow-lg ${
           isOpen ? "fade-in" : "fade-out"
         }`}
       >

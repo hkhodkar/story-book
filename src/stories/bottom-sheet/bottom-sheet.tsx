@@ -17,7 +17,7 @@ const BottomSheet: React.FC<BottomSheetProps> = ({
   }
 
   const classes = classNames(
-    "bg-white w-full p-8  z-10 shadow-lg",
+    "bg-white dark:bg-neutral dark:text-white w-full p-8  z-10 shadow-lg",
     {
       ["h-screen "]: fullHeight,
     },
