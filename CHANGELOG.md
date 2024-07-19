@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.13.1](https://github.com/mokkapps/changelog-generator-demo/compare/v1.13.0...v1.13.1) (2024-07-19)
+
+
+### Bug Fixes
+
+* add dark mode to dialog and bottom sheet ([2c56367](https://github.com/mokkapps/changelog-generator-demo/commits/2c563676c9b019a42df17eaedbd3eb2dd9c7cef4))
+
 ## [1.13.0](https://github.com/mokkapps/changelog-generator-demo/compare/v1.12.0...v1.13.0) (2024-07-15)
 
 
