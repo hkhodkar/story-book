@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.13.4](https://github.com/mokkapps/changelog-generator-demo/compare/v1.13.3...v1.13.4) (2024-07-24)
+
+
+### Bug Fixes
+
+* **pagination:** change pagination button text with proper icons ([2d34183](https://github.com/mokkapps/changelog-generator-demo/commits/2d341830da6deb04fc35e2fac191fc3869f09aca))
+
 ### [1.13.3](https://github.com/mokkapps/changelog-generator-demo/compare/v1.13.2...v1.13.3) (2024-07-19)
 
 ### [1.13.2](https://github.com/mokkapps/changelog-generator-demo/compare/v1.13.1...v1.13.2) (2024-07-19)
