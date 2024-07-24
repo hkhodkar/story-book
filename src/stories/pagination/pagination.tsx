@@ -1,6 +1,8 @@
 import React from "react";
 import { PaginationProps } from "./pagination.type";
 import classNames from "classnames";
+import { GrCaretPrevious, GrCaretNext } from "react-icons/gr";
+import { GrPrevious, GrNext } from "react-icons/gr";
 
 const Pagination: React.FC<PaginationProps> = ({
   currentPage,
@@ -26,7 +28,7 @@ const Pagination: React.FC<PaginationProps> = ({
           disabled={currentPage === 1}
           onClick={() => onPageChange(currentPage - 1)}
         >
-          Previous
+          <GrPrevious />
         </button>
       )}
       {totalPages > 1 &&
@@ -47,7 +49,7 @@ const Pagination: React.FC<PaginationProps> = ({
           disabled={currentPage === totalPages}
           onClick={() => onPageChange(currentPage + 1)}
         >
-          Next
+          <GrNext />
         </button>
       )}
     </div>
