@@ -10,4 +10,5 @@ export { default as Pagination } from "./stories/pagination/pagination";
 export { default as Colors } from "./stories/colors/colors";
 export { default as BottomSheet } from "./stories/bottom-sheet/bottom-sheet";
 export { default as Dialog } from "./stories/dialog/dialog";
+export { default as Badge } from "./stories/badge/badge";
 import "./index.scss";

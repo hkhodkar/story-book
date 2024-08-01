@@ -1,0 +1,91 @@
+.badge {
+    @apply text-center text-white cursor-pointer;
+
+    &-circle {
+        @apply rounded-full flex justify-center items-center;
+    }
+
+    &-wide {
+        @apply w-[128px] rounded;
+    }
+
+    &-neutral {
+        @apply bg-neutral dark:bg-neutral;
+    }
+
+    &-primary {
+        @apply bg-primary dark:bg-dark-primary;
+    }
+
+    &-secondary {
+        @apply bg-secondary dark:bg-secondary;
+    }
+
+    &-accent {
+        @apply bg-accent dark:bg-dark-accent;
+    }
+
+    &-ghost {
+        @apply bg-transparent text-neutral;
+    }
+
+    &-success {
+        @apply bg-success dark:bg-dark-success;
+    }
+
+    &-warning {
+        @apply bg-warning dark:bg-dark-warning;
+    }
+
+    &-info {
+        @apply bg-info dark:bg-dark-info;
+    }
+
+    &-error {
+        @apply bg-error dark:bg-dark-error;
+    }
+
+    &-circle-xs {
+        @apply w-6 h-6;
+        font-size: 0.75rem;
+    }
+
+    &-circle-sm {
+        @apply w-8 h-8;
+        font-size: 0.875rem;
+    }
+
+    &-circle-md {
+        @apply w-10 h-10;
+        font-size: 0.875rem;
+    }
+
+    &-circle-lg {
+        @apply w-12 h-12;
+        font-size: 1.125rem;
+    }
+
+
+    &-wide {
+        @apply p-2;
+        &-xs {
+            @apply w-24;
+            font-size: 0.75rem;
+        }
+
+        &-sm {
+            @apply w-28;
+            font-size: 0.875rem;
+        }
+
+        &-md {
+            @apply w-32;
+            font-size: 0.875rem;
+        }
+
+        &-lg {
+            @apply w-36;
+            font-size: 1.125rem;
+        }
+    }
+}
