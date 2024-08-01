@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.0](https://github.com/mokkapps/changelog-generator-demo/compare/v1.13.4...v2.0.0) (2024-08-01)
+
+
+### Features
+
+* **badge:** add badge component and stories ([998c60e](https://github.com/mokkapps/changelog-generator-demo/commits/998c60eb91484b3814fd48dc2a4cdd19d85c931e))
+
 ### [1.13.4](https://github.com/mokkapps/changelog-generator-demo/compare/v1.13.3...v1.13.4) (2024-07-24)
 
 
